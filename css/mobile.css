@@ -6,6 +6,10 @@
    
 }
 
+.Logo{
+    margin-left:0;
+}
+
 #navbar ul, #navbar ul li{
     float: none;
 
