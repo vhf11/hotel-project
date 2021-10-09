@@ -1,4 +1,8 @@
-#navbar .Logo{
+.Logo{
+    margin-left:0;
+}
+ 
+ #navbar .Logo{
 
     float: none;
     text-align: center;
@@ -6,8 +10,8 @@
    
 }
 
-.Logo{
-    margin-left:0;
+.btn-light{
+ margin-bottom: 20px;
 }
 
 #navbar ul, #navbar ul li{
@@ -19,6 +23,9 @@
     padding: 5px;
     border-bottom:  #444 dotted 1px;
 }
+#Home-info{
+    height: 500px;
+}
 #Home-info .info-img{
 
     display: none;
@@ -27,6 +34,8 @@
 #Home-info .info-content{
     float: none;
    width: 100%;
+  min-height:100%;
+   margin-bottom: 10px;
     
 }
 #Home-info .info-content p{
@@ -52,10 +61,19 @@
     width:100%;
     min-height: 100%;
    }
+   #testimonials{
+    height: 700px;
+
+   }
    #testimonials  h2{
     color: #fff;
     text-align: center;
     padding-top: 10px;
-    padding-bottom: 30px;
+   margin-top: 20px;  
     
-} 
+} #testimonials .testimonial{
+    padding: 10px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    opacity: 0.9;
+}
